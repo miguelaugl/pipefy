@@ -1,9 +1,10 @@
 import React from 'react';
 
+import './styles.css';
+
 export default function Label(props) {
-    console.log(props);
 
   return (
-    <span style={{ color: props.color}}>Oi</span>
+    <span className="label" style={{ backgroundColor: props.color }}></span>
   );
 }
